@@ -1,0 +1,25 @@
+{
+    "recommendations": [
+        "angular.ng-template",
+        "formulahendry.auto-rename-tag",
+        "adpyke.codesnap",
+        "exodiusstudios.comment-anchors",
+        "editorconfig.editorconfig",
+        "usernamehw.errorlens",
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens",
+        "orta.vscode-jest",
+        "ecmel.vscode-html-css",
+        "jfrog.jfrog-vscode-extension",
+        "meezilla.json",
+        "ritwickdey.liveserver",
+        "bierner.markdown-preview-github-styles",
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "ms-playwright.playwright",
+        "esbenp.prettier-vscode",
+        "syler.sass-indented",
+        "pflannery.vscode-versionlens",
+        "sonarsource.sonarlint-vscode"
+    ]
+}

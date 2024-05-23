@@ -1,0 +1,28 @@
+.example-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+#users-btn-group {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#delete-users {
+  border-color: var(--pico-color-red-500);
+  color: var(--pico-color-red-600);
+  font-weight: bold;
+
+  &:hover {
+    border-color: var(--pico-color-red-500);
+    color: var(--pico-color-red-450);
+    background-color: rgba(217, 53, 38, 0.1);
+  }
+}
+
+#user-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  align-items: stretch;
+  gap: 16px;
+}

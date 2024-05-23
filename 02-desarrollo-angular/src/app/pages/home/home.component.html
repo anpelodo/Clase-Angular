@@ -1,0 +1,14 @@
+<div class="example-title">
+  <h1>Ejemplo desarrollo Angular</h1>
+
+  <div id="users-btn-group" role="group">
+    <button id="add-user" (click)="addCat()">Obtener un Gato</button>
+    <button id="add-four-users" class="secondary" (click)="addFourRandomCats()">Obtener 4 Gatos</button>
+    <button id="delete-users" class="outline contrast" (click)="deleteAllCats()">Borrar todos</button>
+  </div>
+</div>
+
+<hr>
+<div id="user-grid">
+  <app-cat-card *ngFor="let cat of cats" [cat]="cat"></app-cat-card>
+</div>

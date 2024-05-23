@@ -1,0 +1,22 @@
+<a [routerLink]="url" class="clean">
+  <article id="user-{{cat.id}}" class="user-card">
+    <header>
+      <img
+        [src]="cat.image"
+        alt="user 9 profile picture"
+      />
+    </header>
+    <div class="body">
+      <hgroup>
+        <h4 class="card-name">{{cat.firstName}} {{cat.lastName}}</h4>
+        <p class="card-email">{{cat.email}}</p>
+      </hgroup>
+
+      <div class="details">
+        <p><strong>Age: </strong>{{cat.age}}</p>
+        <p><strong>Gender: </strong>{{cat.gender}}</p>
+        <p><strong>Birthdate: </strong>{{cat.birthDate}}</p>
+      </div>
+    </div>
+  </article>
+</a>

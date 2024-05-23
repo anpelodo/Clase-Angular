@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="ligth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>01 - Desarrollo vanilla</title>
+    <link rel="icon" type="image/png" href="/assets/cat-icon.png" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+  </head>
+  <body>
+    <header class="container-fluid">
+      <h3 id="header-title">header</h3>
+      <button id="toggleSwitch" class="outline contrast">🌜</button>
+    </header>
+
+    <main class="container">
+      <div class="example-title">
+        <h1>Ejemplo desarrollo vanilla</h1>
+
+        <div id="users-btn-group" role="group">
+          <button id="add-user">Obtener un usuario</button>
+          <button id="add-four-users" class="secondary">Obtener 4 usuario</button>
+          <button id="delete-users" class="outline contrast">Borrar todos</button>
+        </div>
+      </div>
+
+      <hr />
+
+      <div id="user-grid"></div>
+    </main>
+
+    <footer></footer>
+
+    <template id="user-card-template">
+      <article id="user-9" class="user-card">
+        <header>
+          <img
+            src="https://robohash.org/Demetrius.png?set=set4"
+            alt="user 9 profile picture"            
+          />
+        </header>
+        <div class="body">
+          <hgroup>
+            <h4 class="card-name">Demetrius Corkery</h4>
+            <p class="card-email">atuny0@sohu.com</p>
+          </hgroup>
+
+          <div class="details">
+            <p><strong>Age: </strong> 22</p>
+            <p><strong>Gender: </strong> Male</p>
+            <p><strong>Birthdate: </strong> 1971-03-11</p>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <!-- <script src="user.js" type="module"></script> -->
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+// Config to use PicoCSS with Angular
+@use "@picocss/pico/scss/pico" with(
+  // Define the root element used to target <header>, <main>, <footer>
+  // with $enable-semantic-container and $enable-responsive-spacings
+  $semantic-root-element: "app-root",
+  $modules: (
+    "content/link": false, // Disable the link module
+  )
+);
+
+@use "@picocss/pico/scss/colors/utilities" as *;

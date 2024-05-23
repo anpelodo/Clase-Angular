@@ -1,0 +1,19 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+  img {
+    width: 40px;
+  }
+}
+
+#header-title {
+  margin: 0;
+}
